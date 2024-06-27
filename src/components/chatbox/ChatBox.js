@@ -20,7 +20,7 @@ const ChatBox = ({onClose}) => {
             setMessages((prevMessages) => [...prevMessages, newMessage, loadingMessage]);
             setQuery('');
 
-            const res = await axios.post('http://165.227.204.126:8000/chat', data, {
+            const res = await axios.post('https://plankton-app-xgoyn.ondigitalocean.app/chat', data, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
