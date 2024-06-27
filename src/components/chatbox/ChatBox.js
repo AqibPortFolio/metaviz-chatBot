@@ -50,14 +50,14 @@ const ChatBox = ({onClose}) => {
     }, [messages]);
 
     return (
-        <div className="fixed top-6 right-0 bg-white p-6 rounded-lg border border-[#e5e7eb] w-full max-w-lg md:max-w-md sm:max-w-sm overflow-hidden">
+        <div className="fixed top-5 right-0 bg-white p-6 rounded-lg border border-[#e5e7eb] w-full max-w-lg md:max-w-md sm:max-w-sm overflow-hidden">
         <div className='text-black bg-white'>
           <button onClick={onClose} className='float-end'>
             <i className="fa-solid fa-xmark fa-xl hover:text-red-600" />
           </button>
           <h2 className="font-semibold text-lg tracking-tight mb-4">Metaviz AI ChatBot</h2>
         </div>
-        <div className="pr-4 h-[450px] lg:h-[524px] md:h-[460px] sm:h-[450px] overflow-y-auto flex flex-col">
+        <div className="pr-4 h-[450px] lg:h-[520px] md:h-[460px] sm:h-[450px] overflow-y-auto flex flex-col">
           {messages.map((message, index) => (
             <div key={index} className={`flex gap-3 my-4 text-gray-600 text-sm ${message.author === 'You' ? 'justify-end' : 'justify-start'}`}>
               <span className="relative flex shrink-0 overflow-hidden rounded-full w-8 h-8">

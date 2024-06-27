@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full border fixed top-0">
+    <header className="w-full border bg white">
       <nav className="bg-white border-gray-200 py-2.5">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <Link to="#" className="flex items-center">
@@ -60,68 +60,67 @@ const Header = () => {
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <Link
-                  to="#"
-                  className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                  to="/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent text-orange-500 lg:p-0 "
                   aria-current="page"
                 >
                   Home
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://metaviz.pro/about-us/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >
+                <Link
+                  to="https://metaviz.pro/about-us/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0  " >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://metaviz.pro/our-services/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to="https://metaviz.pro/our-services/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0 "
                 >
                   Our Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://bd.metaviz.pro/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to="https://bd.metaviz.pro/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0  "
                 >
                   Brilliant Directories
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://metaviz.pro/portfolio/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to="https://metaviz.pro/portfolio/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0  "
                 >
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://metaviz.pro/pricing/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to="https://metaviz.pro/pricing/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0  "
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://metaviz.pro/contact-us/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to="https://metaviz.pro/contact-us/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0  "
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://metaviz.pro/contact-us/"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to="https://metaviz.pro/contact-us/"
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-orange-500 lg:p-0  "
                 >
                   Get Quote
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
