@@ -57,7 +57,7 @@ const ChatBox = ({onClose}) => {
           </button>
           <h2 className="font-semibold text-lg tracking-tight mb-4">Metaviz AI ChatBot</h2>
         </div>
-        <div className="pr-4 h-[450px] lg:h-[524px] md:h-[500px] sm:h-[450px] overflow-y-auto flex flex-col">
+        <div className="pr-4 h-[450px] lg:h-[524px] md:h-[460px] sm:h-[450px] overflow-y-auto flex flex-col">
           {messages.map((message, index) => (
             <div key={index} className={`flex gap-3 my-4 text-gray-600 text-sm ${message.author === 'You' ? 'justify-end' : 'justify-start'}`}>
               <span className="relative flex shrink-0 overflow-hidden rounded-full w-8 h-8">
